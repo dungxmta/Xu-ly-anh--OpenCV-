@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( ThiGiacMay_BT1 )
+find_package( OpenCV REQUIRED )
+add_executable( ThiGiacMay_BT1 ThiGiacMay_BT1.cpp )
+target_link_libraries( ThiGiacMay_BT1 ${OpenCV_LIBS} )
