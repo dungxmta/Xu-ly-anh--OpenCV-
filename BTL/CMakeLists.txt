@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( BTL )
+find_package( OpenCV REQUIRED )
+add_executable( BTL BTL.cpp )
+target_link_libraries( BTL ${OpenCV_LIBS} )
